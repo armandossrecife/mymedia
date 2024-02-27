@@ -1,0 +1,30 @@
+.
+├── README.md
+├── app
+│ ├── controllers
+│ │ ├── authentication.py
+│ │ ├── dashboard.py
+│ │ └── usuarios.py
+│ ├── dao.py
+│ ├── extensions.py
+│ ├── forms.py
+│ ├── models.py
+│ ├── static
+│ │ ├── dist
+│ │ ├── favicon.ico
+│ │ ├── img
+│ │ ├── plugins
+│ │ └── uploads
+│ ├── templates
+│ │ ├── auth
+│ │ ├── base.html
+│ │ ├── dashboard
+│ │ ├── home.html
+│ │ └── usuarios
+│ └── utils
+│     └── utilidades.py
+├── docs
+├── exec.sh
+├── instance
+├── principal.py
+└── requirements.txt
