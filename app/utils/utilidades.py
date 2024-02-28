@@ -1,5 +1,6 @@
 import os
 
+# Todo: checar os diretorios img, uploads e thumbnails
 class Constant:
     PATH_MYADMIN = os.path.abspath(os.getcwd())
     PATH_MYAPP = PATH_MYADMIN + '/app'
