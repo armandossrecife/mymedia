@@ -1,0 +1,25 @@
+@startuml
+package "App" <<Main>> {
+  [Controllers]
+  [Templates]
+  [Models]
+  [DAOs]
+}
+
+package "DataBaseService" <<DBSystem>>{
+  [Data Base]
+}
+
+package "FileSystemService" <<ObjectSystem>>{
+  [Buckets]
+}
+
+[Controllers] ..> [Templates]
+[Controllers] ..> [Models]
+[Controllers] ..> [DAOs]
+[Models] <-- [DAOs]
+
+[DAOs] --> [Data Base]
+[Controllers] ..> [Buckets]
+
+@enduml
